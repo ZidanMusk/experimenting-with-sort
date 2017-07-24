@@ -9,10 +9,17 @@ Experimenting with [**sort**](https://github.com/abewley/sort) different classic
 - Dlib correlation tracker: https://youtu.be/tMuX5TP6uqA
 - Kalman tracker: https://youtu.be/SKXk6uB8348
 -----------------------------------------------------
-**Note:**
+### Note:
 - The *detector/ground truth* was used only for *~40%* of the time.
-- We noticed from the above outputs that Kalman tracker is *more robust in highly occluded scenes.*
-- Kalman tracker is also about ***10x faster***, and so it is more suitable for realtime MOT.
+- We noticed from the above outputs that *Kalman tracker* is ***more robust in highly occluded scenes.***
+- *Kalman tracker* is also about ***10x faster***, and so it is more suitable for realtime MOT.
+
+## Dependencies:
+- [`Python 2.7x`](https://www.python.org/download/releases/2.7/)
+- [`dlib`](https://pypi.python.org/pypi/dlib)
+- [`scikit-learn`](http://scikit-learn.org/stable/)
+- [`scikit-image`](http://scikit-image.org/download)
+- [`FilterPy`](https://github.com/rlabbe/filterpy)
 
 ## Usage:
 - To test with dlib tracker *(default is kalman)*:
