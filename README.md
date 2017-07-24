@@ -32,5 +32,5 @@ python main.py --save
 ```
 - To disable online tracking display:
 ```
-python main.py --Nodisplay
+python main.py --NoDisplay
 ```
